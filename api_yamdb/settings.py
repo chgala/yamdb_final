@@ -3,7 +3,6 @@ import os
 from datetime import timedelta
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
@@ -118,9 +117,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media") 
-
-#STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
