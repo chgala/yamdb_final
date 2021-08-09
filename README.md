@@ -15,6 +15,8 @@ Docker 20.10.7
 --- . venv/bin/activate
 --- pip install -r requirements.txt
 --- docker-compose up -d --build
-Приложение будет доступно по адресу:
-http://84.201.153.182/
+--- docker-compose exec web python manage.py migrate --noinput
+--- docker-compose exec web python manage.py collectstatic --no-input
+API будет доступно по адресу:
+http://84.201.153.182/api/v1
 
