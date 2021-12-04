@@ -1,8 +1,12 @@
 Название:
 API yamdb_final
+
 ![example workflow](https://github.com/chgala/docs/actions/workflows/main.yml/badge.svg)
+
 Описание:
+
 API проекта Yamdb (социальной сети с возможностью ревью книг/фильмов и других произведений)
+
 Технологии:
 Python 3.7.3.
 Django 3.0.5.
